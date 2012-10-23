@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2445D9162DB391002E1880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2445D8162DB391002E1880 /* UIKit.framework */; };
+		2A2445DB162DB391002E1880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2445DA162DB391002E1880 /* Foundation.framework */; };
+		2A2445DD162DB391002E1880 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2445DC162DB391002E1880 /* CoreGraphics.framework */; };
+		2A2445E3162DB391002E1880 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A2445E1162DB391002E1880 /* InfoPlist.strings */; };
+		2A2445E5162DB392002E1880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2445E4162DB392002E1880 /* main.m */; };
+		2A2445E9162DB392002E1880 /* LapTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2445E8162DB392002E1880 /* LapTimerAppDelegate.m */; };
+		2A2445EC162DB392002E1880 /* LapTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2445EB162DB392002E1880 /* LapTimerViewController.m */; };
+		2A2445EF162DB392002E1880 /* LapTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2445ED162DB392002E1880 /* LapTimerViewController.xib */; };
+		2A2445FB162DB5C0002E1880 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2445FA162DB5C0002E1880 /* Model.m */; };
+		9F833C05162DE3A800A04DCF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F833C04162DE3A800A04DCF /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A2445D4162DB391002E1880 /* LapTimerMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LapTimerMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2445D8162DB391002E1880 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A2445DA162DB391002E1880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A2445DC162DB391002E1880 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A2445E0162DB391002E1880 /* LapTimerMVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LapTimerMVC-Info.plist"; sourceTree = "<group>"; };
+		2A2445E2162DB391002E1880 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A2445E4162DB392002E1880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A2445E6162DB392002E1880 /* LapTimerMVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LapTimerMVC-Prefix.pch"; sourceTree = "<group>"; };
+		2A2445E7162DB392002E1880 /* LapTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LapTimerAppDelegate.h; sourceTree = "<group>"; };
+		2A2445E8162DB392002E1880 /* LapTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LapTimerAppDelegate.m; sourceTree = "<group>"; };
+		2A2445EA162DB392002E1880 /* LapTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LapTimerViewController.h; sourceTree = "<group>"; };
+		2A2445EB162DB392002E1880 /* LapTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LapTimerViewController.m; sourceTree = "<group>"; };
+		2A2445EE162DB392002E1880 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LapTimerViewController.xib; sourceTree = "<group>"; };
+		2A2445F9162DB5C0002E1880 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		2A2445FA162DB5C0002E1880 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		9F833C04162DE3A800A04DCF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2445D1162DB391002E1880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2445D9162DB391002E1880 /* UIKit.framework in Frameworks */,
+				2A2445DB162DB391002E1880 /* Foundation.framework in Frameworks */,
+				2A2445DD162DB391002E1880 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2445C9162DB391002E1880 = {
+			isa = PBXGroup;
+			children = (
+				9F833C04162DE3A800A04DCF /* Default-568h@2x.png */,
+				2A2445DE162DB391002E1880 /* LapTimerMVC */,
+				2A2445D7162DB391002E1880 /* Frameworks */,
+				2A2445D5162DB391002E1880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2445D5162DB391002E1880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2445D4162DB391002E1880 /* LapTimerMVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2445D7162DB391002E1880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2445D8162DB391002E1880 /* UIKit.framework */,
+				2A2445DA162DB391002E1880 /* Foundation.framework */,
+				2A2445DC162DB391002E1880 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A2445DE162DB391002E1880 /* LapTimerMVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A2445E7162DB392002E1880 /* LapTimerAppDelegate.h */,
+				2A2445E8162DB392002E1880 /* LapTimerAppDelegate.m */,
+				2A2445EA162DB392002E1880 /* LapTimerViewController.h */,
+				2A2445EB162DB392002E1880 /* LapTimerViewController.m */,
+				2A2445ED162DB392002E1880 /* LapTimerViewController.xib */,
+				2A2445F9162DB5C0002E1880 /* Model.h */,
+				2A2445FA162DB5C0002E1880 /* Model.m */,
+				2A2445DF162DB391002E1880 /* Supporting Files */,
+			);
+			path = LapTimerMVC;
+			sourceTree = "<group>";
+		};
+		2A2445DF162DB391002E1880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A2445E0162DB391002E1880 /* LapTimerMVC-Info.plist */,
+				2A2445E1162DB391002E1880 /* InfoPlist.strings */,
+				2A2445E4162DB392002E1880 /* main.m */,
+				2A2445E6162DB392002E1880 /* LapTimerMVC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2445D3162DB391002E1880 /* LapTimerMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2445F2162DB392002E1880 /* Build configuration list for PBXNativeTarget "LapTimerMVC" */;
+			buildPhases = (
+				2A2445D0162DB391002E1880 /* Sources */,
+				2A2445D1162DB391002E1880 /* Frameworks */,
+				2A2445D2162DB391002E1880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LapTimerMVC;
+			productName = LapTimerMVC;
+			productReference = 2A2445D4162DB391002E1880 /* LapTimerMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2445CB162DB391002E1880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LapTimer;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2A2445CE162DB391002E1880 /* Build configuration list for PBXProject "LapTimerMVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A2445C9162DB391002E1880;
+			productRefGroup = 2A2445D5162DB391002E1880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2445D3162DB391002E1880 /* LapTimerMVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2445D2162DB391002E1880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2445E3162DB391002E1880 /* InfoPlist.strings in Resources */,
+				2A2445EF162DB392002E1880 /* LapTimerViewController.xib in Resources */,
+				9F833C05162DE3A800A04DCF /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2445D0162DB391002E1880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2445E5162DB392002E1880 /* main.m in Sources */,
+				2A2445E9162DB392002E1880 /* LapTimerAppDelegate.m in Sources */,
+				2A2445EC162DB392002E1880 /* LapTimerViewController.m in Sources */,
+				2A2445FB162DB5C0002E1880 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A2445E1162DB391002E1880 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2445E2162DB391002E1880 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A2445ED162DB392002E1880 /* LapTimerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2445EE162DB392002E1880 /* en */,
+			);
+			name = LapTimerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2445F0162DB392002E1880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A2445F1162DB392002E1880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2445F3162DB392002E1880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LapTimerMVC/LapTimerMVC-Prefix.pch";
+				INFOPLIST_FILE = "LapTimerMVC/LapTimerMVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A2445F4162DB392002E1880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LapTimerMVC/LapTimerMVC-Prefix.pch";
+				INFOPLIST_FILE = "LapTimerMVC/LapTimerMVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2445CE162DB391002E1880 /* Build configuration list for PBXProject "LapTimerMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2445F0162DB392002E1880 /* Debug */,
+				2A2445F1162DB392002E1880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2445F2162DB392002E1880 /* Build configuration list for PBXNativeTarget "LapTimerMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2445F3162DB392002E1880 /* Debug */,
+				2A2445F4162DB392002E1880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2445CB162DB391002E1880 /* Project object */;
+}
