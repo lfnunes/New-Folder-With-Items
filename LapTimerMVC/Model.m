@@ -35,28 +35,22 @@
 
     TimeDivided timeLocal;
     int remainder=0, result=0;
-    /*
-    result=self.ElapsedTime/(9*60*60);
+    
+    result=(int) (self.ElapsedTime/(2160000));
     remainder=self.ElapsedTime-result;
     
     timeLocal.hh=result;
     
-    result=remainder/(60*9);
+    result=(int) (remainder/(36000));
     remainder=remainder-result;
     timeLocal.mm=result;
     
-    result=remainder/9;
-    timeLocal.tt=result;*/
+    result=(int) (remainder/600);
+    remainder=remainder-result;
+    timeLocal.ss=result;
     
-    if(ElapsedTime<=9){
-        timeLocal.tt=ElapsedTime;
-        timeLocal.ss=0;
-        timeLocal.mm=0;
-        timeLocal.hh=0;
-    }
-    else if (ElapsedTime) {
-        <#statements#>
-    }
+    timeLocal.tt=remainder;
+    
     
     return timeLocal;
 }
